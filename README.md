@@ -5,8 +5,7 @@ Installation
 Maven
 Add the following repository and dependency to your pom.xml:
 
-xml
-Copy code
+java
 <repositories>
   <repository>
     <id>jubyte</id>
@@ -25,8 +24,7 @@ Copy code
 Gradle
 Add the following repository and dependency to your build.gradle:
 
-groovy
-Copy code
+java
 repositories {
   maven {
     url 'https://repo.jubyte.com/repository/jubyte/'
@@ -42,7 +40,6 @@ Usage
 The JuByte Case API provides two interfaces for managing player cases and logging case openings: CasePlayerAPI and CaseLogAPI, respectively. To use these interfaces, first obtain an instance of CaseAPI using the static method getInstance(). Then, use the methods provided by the CasePlayerAPI and CaseLogAPI interfaces to manage player cases and log case openings, respectively.
 
 java
-Copy code
 import com.jubyte.caseopening.api.CaseAPI;
 import com.jubyte.caseopening.api.log.CaseLogAPI;
 import com.jubyte.caseopening.api.log.CaseLogEntry;
@@ -73,5 +70,6 @@ public class Example {
   }
 
 }
+
 License
 The JuByte Case API is licensed under the MIT License. See LICENSE for more information.
