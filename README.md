@@ -1,4 +1,3 @@
-```
 # JuByte CaseAPI
 
 JuByte CaseAPI is a Java library that provides an API to interact with the JuByte CaseOpening system. 
