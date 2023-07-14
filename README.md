@@ -23,7 +23,7 @@ And then add the following dependency:
 ```xml
 <dependency>
   <groupId>com.jubyte.caseopening</groupId>
-  <artifactId>JuByteCaseAPI</artifactId>
+  <artifactId>JuByteCaseApi</artifactId>
   <version>1.3.1-RELEASE</version>
 </dependency>
 ```
@@ -44,7 +44,7 @@ And then add the following dependency:
 
 ```groovy
 dependencies {
-    implementation 'com.jubyte.caseopening:JuByteCaseAPI:1.2.5-RELEASE'
+    implementation 'com.jubyte.caseopening:JuByteCaseApi:1.3.1-RELEASE'
 }
 ```
 
