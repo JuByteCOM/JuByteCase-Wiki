@@ -24,7 +24,7 @@ And then add the following dependency:
 <dependency>
   <groupId>com.jubyte.caseopening</groupId>
   <artifactId>JuByteCaseApi</artifactId>
-  <version>1.3.1-RELEASE</version>
+  <version>1.5.1-RELEASE</version>
 </dependency>
 ```
 
