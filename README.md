@@ -13,7 +13,7 @@ Add the following repository to your `pom.xml`:
   <repository>
     <id>jubyte</id>
     <name>JuByte</name>
-    <url>https://repo.jubyte.com/repository/jubyte/</url>
+    <url>https://repo.jubyte.com/artifactory/jubyte/</url>
   </repository>
 </repositories>
 ```
@@ -22,9 +22,9 @@ And then add the following dependency:
 
 ```xml
 <dependency>
-  <groupId>com.jubyte.caseopening</groupId>
-  <artifactId>JuByteCaseApi</artifactId>
-  <version>1.5.1-RELEASE</version>
+    <groupId>com.jubyte.caseopening</groupId>
+    <artifactId>JuByteCaseApi</artifactId>
+    <version>1.9.2-RELEASE</version>
 </dependency>
 ```
 
@@ -35,7 +35,7 @@ Add the following repository to your `build.gradle` file:
 ```groovy
 repositories {
     maven {
-        url "https://repo.jubyte.com/repository/jubyte/"
+        url "https://repo.jubyte.com/artifactory/jubyte/"
     }
 }
 ```
@@ -44,7 +44,7 @@ And then add the following dependency:
 
 ```groovy
 dependencies {
-    implementation 'com.jubyte.caseopening:JuByteCaseApi:1.3.1-RELEASE'
+    implementation 'com.jubyte.caseopening:JuByteCaseApi:1.9.2-RELEASE'
 }
 ```
 
@@ -96,7 +96,7 @@ JuByte CaseAPI is released under the MIT License.
 
 MIT License
 
-Copyright (c) 2023 JuByte
+Copyright (c) 2023 - 2025 JuByte
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
