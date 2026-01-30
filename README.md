@@ -69,7 +69,7 @@ Add the dependency:
 <dependency>
     <groupId>com.jubyte.caseopening</groupId>
     <artifactId>JuByteCaseApi</artifactId>
-    <version>1.9.2-RELEASE</version>
+    <version>1.10.2-RELEASE</version>
     <scope>provided</scope>
 </dependency>
 ```
@@ -84,7 +84,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.jubyte.caseopening:JuByteCaseApi:1.9.2-RELEASE")
+    compileOnly("com.jubyte.caseopening:JuByteCaseApi:1.10.2-RELEASE")
 }
 ```
 
